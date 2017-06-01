@@ -45,7 +45,7 @@ public class Controller {
     }
 
     @RequestMapping("/hello")
-    @ApiOperation(value = "Returns Hellow World", notes = "Returns a hello world message.")
+    @ApiOperation(value = "Returns Hello World", notes = "Returns a hello world message.")
     @ApiParam(name = "helloWorld", value = "null", allowEmptyValue = true)
     @ApiResponses(value =
             {
